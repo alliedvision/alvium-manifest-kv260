@@ -19,6 +19,8 @@
   <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx-github" upstream="rel-v2023.1" revision="b63a17e6fbea148adf59ea88d273bacac8ba98f0"/>
 
 
+  <project remote="xilinx-github"    revision="rel-v2023.1"      name="meta-ros"                 path="sources/meta-ros"/>
+
   <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" revision="dev"> <!-- upstream="main" revision="87cf5b55a5738a6ae3a76d5206a8cf3f868a2b8d"-->
       <linkfile dest="enabled_boards/zcu106" src="tools/boards/zcu106"/>
       <linkfile dest="setup-avt-release.sh" src="tools/setup-avt-release.sh"/>
