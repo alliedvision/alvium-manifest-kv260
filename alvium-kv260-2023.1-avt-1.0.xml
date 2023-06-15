@@ -21,6 +21,7 @@
 
   <project remote="xilinx-github"    revision="rel-v2023.1"      name="meta-ros"                 path="sources/meta-ros"/>
   <project remote="xilinx-github"    revision="rel-v2023.1"      name="meta-virtualization"                 path="sources/meta-virtualization"/>
+  <project remote="xilinx-github"    revision="rel-v2023.1"      name="meta-security"                 path="sources/meta-security"/>
 
 
   <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" revision="dev"> <!-- upstream="main" revision="87cf5b55a5738a6ae3a76d5206a8cf3f868a2b8d"-->
