@@ -16,17 +16,12 @@
   <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx-github" upstream="rel-v2023.1" revision="d4732aa636e6764c64030083a20975283c2352d5"/>
   <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx-github" upstream="rel-v2023.1" revision="280695ffd7ae40009e37b568dd9a7c5cbab5bfbd"/>
   <project name="meta-kria" path="sources/meta-kria" remote="xilinx-github" upstream="rel-v2023.1" revision="c6c75805883c3f36795ee9275f511bc560e3b4e5"/>
-  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx-github" upstream="rel-v2023.1" revision="b63a17e6fbea148adf59ea88d273bacac8ba98f0"/>
 
-
-  <project remote="xilinx-github"    revision="rel-v2023.1"      name="meta-ros"                 path="sources/meta-ros"/>
-  <project remote="xilinx-github"    revision="rel-v2023.1"      name="meta-virtualization"                 path="sources/meta-virtualization"/>
-  <project remote="xilinx-github"    revision="rel-v2023.1"      name="meta-security"                 path="sources/meta-security"/>
-
-
-  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" revision="dev"> <!-- upstream="main" revision="87cf5b55a5738a6ae3a76d5206a8cf3f868a2b8d"-->
+  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" revision="feature/kv260-supprt"> <!-- upstream="main" revision="87cf5b55a5738a6ae3a76d5206a8cf3f868a2b8d"-->
       <linkfile dest="enabled_boards/zcu106" src="tools/boards/zcu106"/>
       <linkfile dest="setup-avt-release.sh" src="tools/setup-avt-release.sh"/>
   </project>
+
+ <project name="meta-alvium-bitstream" path="sources/meta-alvium-bitstream" remote="avt-github" revision="feature/kv260-supprt">
 
 </manifest>
