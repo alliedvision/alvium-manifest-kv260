@@ -8,7 +8,9 @@ Kria KV260 Vision AI Starter Kit
 This release is compatible with:
 - Xilinx Kria KV260 Vision AI Starter Kit
 - Alvium MIPI CSI-2 cameras with firmware 11.1 or higher
+- Xilinx yocto layers version 2023.1
 - Qt 5.15.x 
+- V4L2Viewer 2.1.1
 
 The CSI2 clock frequency is configured to 750000000 Hz.
 
