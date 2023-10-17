@@ -96,6 +96,7 @@ The following bitstreams are available:
 ### Video4Linux2 compliance
 Set following v4l2-compliance test are expected to fail:
 - VIDIOC_QUERY_EXT_CTRL/QUERYMENU
+- VIDIOC_QUERYCTRL
 - VIDIOC_G/S_CTRL
 - VIDIOC_(UN)SUBSCRIBE_EVENT/DQEVENT
 - VIDIOC_G_FMT
