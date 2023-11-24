@@ -1,8 +1,7 @@
 # Alvium CSI2 driver for Xilinx Kria KV260 Vision AI Starter Kit
 
 ## Overview
-This repository contains the manifest files for building the Allied Vision Alvium reference image for the Xilinx
-Kria KV260 Vision AI Starter Kit
+This repository contains the manifest files for building the Allied Vision Alvium reference image for the Xilinx Kria KV260 Vision AI Starter Kit.
 
 ## Compatibility
 This release is tested with:
@@ -20,7 +19,7 @@ For GenICam for CSI2 access, Vimba X 2023-2 is required.
 ### Prerequisites
 -  Kria KV260 Vision AI Starter Kit
 -  Host PC: Install the requirements as defined in the [Yocto Project Reference Manual](https://docs.yoctoproject.org/4.1.4/ref-manual/system-requirements.html#required-packages-for-the-build-host)  
--  Alvium camera with Firmware 11.1
+-  Alvium camera with Firmware 12
 -  SD Card 8 GB
 
 ### Installation
@@ -55,7 +54,7 @@ To install the driver and layer:
 5. Flash the image to the SD card.  If you have built the image with yocto, you can find the image here:
             <build_dir>/tmp/deploy/images/k26-smk-kv/avs-image-alvium-validation-k26-smk-kv.wic.bz2
 6. Boot the board.
-7. Check if the camera firmware version is 11.1 or higher. If the camera has an earlier firmware, perform an update with Vimba X Firmware Updater.
+7. Check if the camera firmware version is 12 or higher. If the camera has an earlier firmware, perform an update with Vimba X Firmware Updater.
 
 ### SDK Installation
 
@@ -68,7 +67,7 @@ Tip: For the prebake image, skip step 1 - 2 and start with step 3.
     ```
 3. Install the SDK on your system by running the installer script. If you have built the sdk, you can find it here:
    <build_dir>/tmp/deploy/sdk/poky-glibc-x86_64-avs-image-alvium-validation-cortexa72-cortexa53-k26-smk-kv-toolchain-4.1.4.sh
-4. If you have installed the sdk to the default location. You can setup the build enviorment by running:
+4. If you have installed the sdk to the default location. You can setup the build environment by running:
    ```shell
    source /opt/poky/4.1.4/environment-setup-cortexa72-cortexa53-poky-linux 
    ```
